@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LibraryManager</string>
+    <string name="main_signup">Signup</string>
+    <string name="main_Login">Login</string>
+    <string name="signup_name">Name</string>
+    <string name="signup_password">Password</string>
+    <string name="signup_confirm_password">Confirm password</string>
+    <string name="signup_phone_number">Phone Number</string>
+    <string name="signup_add_account">Submit</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="login_username">Username</string>
+    <string name="login_password">Password</string>
+    <string name="login_login">Login</string>
+    <string name="title_activity_books">BooksActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_economics">EconomicsActivity</string>
+    <string name="title_activity_science">ScienceActivity</string>
+    <string name="title_activity_social">SocialActivity</string>
+    <string name="login_title">Login</string>
+    <string name="submit_button">Submit</string>
+    <string name="Register_here">Register Here!</string>
+    <string name="Sign_up">Sign Up</string>
+     <string name="signup_username">Usermame</string>
+    <string name="details_reserve">Reserve</string>
+    <string name="title_activity_admin">AdminActivity</string>
+    <string name="bookid">Book Id</string>
+    <string name="bookname">Book Name</string>
+    <string-array name="category">
+        <item>science</item>
+        <item>economics</item>
+        <item>social</item>
+    </string-array> 
+
+</resources>

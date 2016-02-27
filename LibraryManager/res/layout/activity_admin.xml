@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+ 
+    <Spinner
+        android:id="@+id/category_spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:background="#f3f3f3"
+        android:layout_alignLeft="@+id/bookname_edit"
+        android:layout_below="@+id/bookname_edit"
+        android:layout_marginTop="27dp"
+        android:entries="@array/category" />
+ 
+    <EditText
+        android:id="@+id/bookid_edit"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="#f3f3f3"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:ems="10"
+        android:hint="@string/bookid"
+        android:paddingLeft="5dp"
+        android:inputType="number" />
+ 
+    <EditText
+        android:id="@+id/bookname_edit"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="#f3f3f3"
+        android:layout_alignLeft="@+id/bookid_edit"
+        android:layout_below="@+id/bookid_edit"
+        android:layout_marginTop="27dp"
+        android:paddingLeft="5dp"
+        android:ems="10"
+        android:hint="@string/bookname" >
+ 
+        <requestFocus />
+    </EditText>
+
+     <Button
+         android:id="@+id/save_btn"
+         android:layout_width="190dp"
+         android:layout_height="38dp"
+         android:layout_alignParentLeft="true"
+         android:layout_below="@+id/category_spinner"
+         android:layout_marginLeft="48dp"
+         android:layout_marginTop="45dp"
+         android:background="#13b586"
+         android:onClick="save"
+         android:text="@string/signup_add_account"
+         android:textColor="#fff"
+         android:textSize="13sp" />
+ 
+</RelativeLayout>
